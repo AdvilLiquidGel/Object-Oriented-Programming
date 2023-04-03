@@ -41,6 +41,7 @@ print(s1.__studentNumber) # Will also cause an error
 __Ideas__: Different Classes (non-inherited) can have the same named methods (Simple) → Polymorphism. Within a set of inherited classes have the same methods
 
 ```python
+# Example Polymorphism
 class Bear:
     def sound(self):
         print("Groarrr")
@@ -87,6 +88,7 @@ Multilevel Inheritance: A subclass is inheriting from another subclass… A → 
 Inheritance can have an hierarchy (branching like a tree) and/or be a hybrid: mixing the types of inheritances
 
 ```python
+# Example Inheritance
 class ParentClassName:
 	“”” Define Parent Class “””
 	.
